@@ -134,7 +134,7 @@ for t in range(1, N+1):
     )
 ```
 
-You can check out the full simulation code [here]https://github.com/kanish-dev/quant-simulations-and-risk/blob/main/Monte_Carlo_GBM.py)
+You can check out the full simulation code [here](https://github.com/kanish-dev/quant-simulations-and-risk/blob/main/Monte_Carlo_GBM.py)
 
 ---
 
