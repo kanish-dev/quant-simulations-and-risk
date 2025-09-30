@@ -83,7 +83,7 @@ for t in range(1, N):
     S[t] = S[t-1] * np.exp((mu - 0.5 * sigma**2)*dt + sigma*np.sqrt(dt)*Z[t])
 ```
 
-You can check out the full simulation code [here](https://github.com/k-dickinson/geometric-brownian-motion/blob/main/GBM_Code.py)
+You can check out the full simulation code [here](https://github.com/kanish-dev/quant-simulations-and-risk/blob/main/GBM_Code.py)
 
 ---
 
@@ -101,7 +101,7 @@ Earlier, We simulate a single stock path — but the framework supports scaling 
 
 ## Example Output
 
-![Sample Monte Carlo Simulation Output](https://github.com/k-dickinson/quant-simulations-and-risk/blob/main/monte_carlo_example_output.png)
+![Sample Monte Carlo Simulation Output](https://github.com/kanish-dev/quant-simulations-and-risk/blob/main/monte_carlo_example_output.png)
 ---
 
 ## How it works
@@ -134,7 +134,7 @@ for t in range(1, N+1):
     )
 ```
 
-You can check out the full simulation code [here](https://github.com/k-dickinson/quant-simulations-and-risk/blob/main/Monte_Carlo_GBM.py)
+You can check out the full simulation code [here]https://github.com/kanish-dev/quant-simulations-and-risk/blob/main/Monte_Carlo_GBM.py)
 
 ---
 
@@ -152,7 +152,7 @@ This lets us estimate downside risk with:
 
 Example side-by-side output:
 
-![Sample Monte Carlo Simulation Output](https://github.com/k-dickinson/quant-simulations-and-risk/blob/main/Monte_Carlo_Outputs_Sidebyside.png)
+![Sample Monte Carlo Simulation Output](https://github.com/kanish-dev/quant-simulations-and-risk/blob/main/Monte_Carlo_Outputs_Sidebyside.png)
 
 ---
 
@@ -213,7 +213,7 @@ At each timestep for each simulation, the asset prices evolve via GBM, and we co
 
 ## Example Output
 
-![Portfolio Simulation Output](https://github.com/k-dickinson/quant-simulations-and-risk/blob/main/Portfolio_MonteCarlo_Figure.png)
+![Portfolio Simulation Output](https://github.com/kanish-dev/quant-simulations-and-risk/blob/main/Portfolio_MonteCarlo_Figure.png)
 
 ---
 
